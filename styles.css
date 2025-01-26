@@ -1,0 +1,91 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url('./assets/background.jpg');
+}
+
+.container {
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 52%, rgba(0,0,0,0.4) 100%);
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-web {
+    font-family:  "Inter", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+}
+
+.logo-header {
+    height: 50px;
+    width: 50px;
+}
+
+.section-1 {
+    font-family: "Rancho", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.garis-bawah {
+    height: 3px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.section-2 {
+    background-color: white;
+    border: 4px #EF6807 solid;
+    border-radius: 10px;
+    padding: 20px 40px;
+    font-family:  "Inter", serif;
+    color: #2B57A7;
+    margin-bottom: 50px;
+}
+
+.section-3 {
+    background-color: white;
+    border: 4px #2B57A7 solid;
+    border-radius: 10px;
+    padding: 20px 40px;
+    font-family:  "Inter", serif;
+    color: #EF6807;
+}
+
+.tombol-daftar {
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #EF6807;
+    border-width: 0px;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+    font-family:  "Inter", serif;
+}
